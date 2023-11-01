@@ -1,0 +1,58 @@
+.space-tourism {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  height: 100vh;
+}
+
+.homepage {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 12rem;
+}
+
+.homepage-description {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #d0d6f9;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 4.725px;
+}
+
+.homepage-heading {
+  font-family: "Bellefair", serif;
+  font-size: 15rem;
+  font-weight: 400;
+  margin: 2rem 0;
+  letter-spacing: 1rem;
+}
+
+.homepage-para {
+  font-family: "Barlow", sans-serif;
+  width: 44.4rem;
+  color: #d0d6f9;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+button {
+  width: 274px;
+  height: 274px;
+  flex-shrink: 0;
+  border-radius: 274px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bellefair", serif;
+  color: #0b0d17;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 3.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0rem 0rem 5rem 0.1036rem #fff;
+}
