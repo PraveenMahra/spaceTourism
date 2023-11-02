@@ -43,8 +43,14 @@ body {
   letter-spacing: 2.7px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .navbar-list li {
   text-transform: uppercase;
+  transition: all 1s;
 }
 
 .navbar-list li:hover {
