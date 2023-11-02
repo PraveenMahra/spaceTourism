@@ -1,0 +1,70 @@
+.space-tourism {
+  background-image: url(./assets/crew/background-crew-desktop.jpg);
+  min-height: 100vh;
+}
+
+.crew-meet {
+  font-family: "Barlow Condensed";
+  font-size: 2.8rem;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  margin-left: 15rem;
+  margin-top: 1rem;
+}
+
+.crew-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.crew-no {
+  font-weight: 700;
+  opacity: 0.25;
+}
+
+.crew-post {
+  font-family: " Bellefair";
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.5042;
+}
+
+.crew-name {
+  font-family: " Bellefair";
+  font-size: 5.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.crew-description {
+  width: 44.4rem;
+  color: #d0d6f9;
+  font-family: "Barlow";
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+
+.crew-change-circle {
+  display: flex;
+  gap: 2rem;
+  margin-top: 8.8rem;
+}
+
+.circle {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  opacity: 0.1744;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.circle:hover {
+  cursor: pointer;
+  opacity: 1;
+}
