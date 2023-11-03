@@ -1,15 +1,18 @@
-// const links = document.querySelectorAll(".navbar-list a");
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const navEl = document.querySelector(".navbar-list");
+const closeIcon = document.querySelector(".close-icon");
 
-// document.querySelector(".navbar-list a.active").classList.add("active");
+if (window.innerWidth <= 609) {
+  navEl.classList.add("hidden");
+  closeIcon.classList.add("hidden");
+}
 
-// links.forEach((link) => {
-//   link.addEventListener("click", function (event) {
-//     // event.preventDefault();
+hamburgerIcon.addEventListener("click", function () {
+  navEl.classList.toggle("hidden");
+  closeIcon.classList.remove("hidden");
+});
 
-//     links.forEach((link) => {
-//       link.classList.remove("active");
-//     });
-
-//     this.classList.add("active");
-//   });
-// });
+closeIcon.addEventListener("click", function () {
+  navEl.classList.add("hidden");
+  closeIcon.classList.add("hidden");
+});

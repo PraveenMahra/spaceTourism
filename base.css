@@ -75,6 +75,10 @@ a {
   text-decoration-thickness: 2px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* responsive for tablet  */
 
 @media (max-width: 60rem) {
@@ -107,7 +111,33 @@ a {
   }
 
   .navbar-list {
-    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 3.2rem;
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar-list li:first-child {
+    margin-top: 7rem;
+  }
+
+  .active {
+    text-decoration: none;
+  }
+
+  .navbar-serial-no {
+    display: block;
+  }
+
+  .navbar-list li a {
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
   }
 
   .mobile-icon {
@@ -116,6 +146,9 @@ a {
   }
 
   .close-icon {
-    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    z-index: 1;
   }
 }
