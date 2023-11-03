@@ -97,3 +97,25 @@ a {
     display: none;
   }
 }
+
+/*  responsive for mobile */
+
+@media (max-width: 38.12rem) {
+  .navbar-logo img {
+    width: 4rem;
+    margin-top: 2rem;
+  }
+
+  .navbar-list {
+    display: none;
+  }
+
+  .mobile-icon {
+    display: block;
+    margin-right: 2rem;
+  }
+
+  .close-icon {
+    display: none;
+  }
+}

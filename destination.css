@@ -158,3 +158,48 @@
     justify-content: center;
   }
 }
+
+/*  responsive for mobile */
+
+@media (max-width: 38.12rem) {
+  .space-tourism {
+    background-image: url(./assets/destination/background-destination-mobile.jpg);
+  }
+
+  .destination-picker {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 2.7px;
+    margin: 3.2rem 0;
+  }
+
+  .logo img {
+    width: 25rem;
+  }
+
+  .destination-page {
+    gap: 3.2rem;
+  }
+
+  .destination-options ul {
+    font-size: 1.4rem;
+    letter-spacing: 2.362px;
+  }
+
+  .heading {
+    font-size: 5.6rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .destination-description {
+    width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .distance-travel-time {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+}

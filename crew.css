@@ -129,3 +129,54 @@
     width: 35rem;
   }
 }
+
+/*  responsive for mobile */
+
+@media (max-width: 38.12rem) {
+  .space-tourism {
+    background-image: url(./assets/crew/background-crew-mobile.jpg);
+  }
+
+  .crew-meet {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 2.7px;
+    margin: 3.2rem 0;
+  }
+
+  .crew-page {
+    margin: auto;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .crew-details {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .crew-member-img img {
+    width: 25rem;
+  }
+
+  .crew-change-circle {
+    margin-top: 3.2rem;
+  }
+
+  .crew-post {
+    font-size: 1.6rem;
+    margin-top: 3.2rem;
+  }
+
+  .crew-name {
+    font-size: 2.4rem;
+    margin: 1.6rem 0;
+  }
+
+  .crew-description {
+    width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+  }
+}

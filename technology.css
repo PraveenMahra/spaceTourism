@@ -157,3 +157,46 @@
     width: 100%;
   }
 }
+
+/*  responsive for mobile */
+
+@media (max-width: 38.12rem) {
+  .space-tourism {
+    background-image: url(./assets/technology/background-technology-mobile.jpg);
+  }
+
+  .technology-space {
+    font-size: 1.6rem;
+    letter-spacing: 2.7px;
+    text-align: center;
+    margin: 3.2rem 0;
+  }
+
+  .technology-page {
+    gap: 2.5rem;
+  }
+
+  .technology-series {
+    gap: 1.6rem;
+  }
+
+  .technology {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .technology-term {
+    font-size: 1.4rem;
+    letter-spacing: 2.362px;
+  }
+
+  .technology-name {
+    font-size: 2.4rem;
+  }
+
+  .technology-description {
+    width: 32.7rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
