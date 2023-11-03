@@ -74,3 +74,58 @@
   border-radius: 100%;
   opacity: 1;
 }
+
+/* responsive for tablet  */
+
+@media (max-width: 67.5rem) {
+  .space-tourism {
+    background-image: url(./assets/crew/background-crew-tablet.jpg);
+    background-size: cover;
+  }
+
+  .crew-meet {
+    font-size: 20px;
+    letter-spacing: 3.375px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+
+  .crew-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    gap: 4rem;
+  }
+
+  .crew-post {
+    font-size: 2.4rem;
+    opacity: 0.4994;
+  }
+
+  .crew-name {
+    font-size: 4rem;
+  }
+
+  .crew-description {
+    width: 45.8rem;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
+  .crew-change-circle {
+    margin-top: 4rem;
+    justify-content: center;
+  }
+
+  .circle {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .crew-member-img img {
+    width: 35rem;
+  }
+}

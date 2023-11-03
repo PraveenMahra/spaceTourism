@@ -21,12 +21,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8rem;
+  gap: 6rem;
 }
 
 .technology-term {
   color: #d0d6f9;
   font-family: "Barlow Condensed";
+  text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 2.7px;
@@ -35,6 +36,7 @@
 .technology-name {
   font-family: " Bellefair";
   font-size: 5.6rem;
+  width: 570px;
   font-weight: 400;
   text-transform: uppercase;
   margin: 1.5rem 0 2rem 0;
@@ -80,4 +82,78 @@
 .technology-active {
   color: #0b0d17;
   background: #fff;
+}
+
+.potrait-img {
+  width: 100%;
+}
+
+.landscape-img {
+  display: none;
+}
+
+/* responsive for tablet  */
+
+@media (max-width: 67.5rem) {
+  .space-tourism {
+    background-image: url(./assets/technology/background-technology-tablet.jpg);
+    background-size: cover;
+  }
+
+  .technology-space {
+    font-size: 2rem;
+    letter-spacing: 3.375px;
+    margin: 4rem 4rem;
+  }
+
+  .technology-page {
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+  }
+
+  .technology-series {
+    flex-direction: row;
+    gap: 4rem;
+    order: 2;
+  }
+
+  .technology {
+    width: 6rem;
+    height: 6rem;
+    font-size: 2.4rem;
+    letter-spacing: 1.5px;
+    margin: auto;
+  }
+
+  .technology-name {
+    font-size: 4rem;
+    width: auto;
+    margin: 1.6rem 0;
+  }
+
+  .technology-description {
+    width: 45.8rem;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+  }
+
+  .technology-details {
+    order: 3;
+  }
+
+  .technology-img {
+    order: 1;
+  }
+
+  .potrait-img {
+    display: none;
+  }
+
+  .landscape-img {
+    display: block;
+    width: 100%;
+  }
 }

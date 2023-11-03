@@ -70,3 +70,26 @@ a {
   text-underline-offset: 40px;
   text-decoration-thickness: 2px;
 }
+
+/* responsive for tablet  */
+
+@media (max-width: 60rem) {
+  .navbar {
+    padding-top: 0;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .navbar-list {
+    width: auto;
+    height: auto;
+    gap: 4rem;
+    padding: 2.5rem;
+  }
+
+  .navbar-serial-no {
+    display: none;
+  }
+}
