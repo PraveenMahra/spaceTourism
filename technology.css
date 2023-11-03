@@ -1,0 +1,79 @@
+.space-tourism {
+  background-image: url(./assets/technology/background-technology-desktop.jpg);
+  min-height: 100vh;
+}
+
+.technology-space {
+  font-family: "Barlow Condensed";
+  font-size: 2.8rem;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  margin-left: 15rem;
+  margin-top: 1rem;
+}
+
+.technology-no {
+  font-weight: 700;
+  opacity: 0.25;
+}
+
+.technology-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.technology-term {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed";
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+}
+
+.technology-name {
+  font-family: " Bellefair";
+  font-size: 5.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.technology-description {
+  width: 44.4rem;
+  color: #d0d6f9;
+  font-family: "Barlow";
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+
+.technology-series {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.technology {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: " Bellefair";
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15rem;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+}
+
+.technology:hover {
+  cursor: pointer;
+  color: #0b0d17;
+  background: #fff;
+}
