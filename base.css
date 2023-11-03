@@ -64,3 +64,9 @@ a {
 .navbar-serial-no {
   font-weight: 700;
 }
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 40px;
+  text-decoration-thickness: 2px;
+}

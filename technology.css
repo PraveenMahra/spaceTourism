@@ -76,3 +76,8 @@
   cursor: pointer;
   border: 1px solid #fff;
 }
+
+.technology-active {
+  color: #0b0d17;
+  background: #fff;
+}

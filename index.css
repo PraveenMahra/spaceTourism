@@ -1,6 +1,6 @@
 .space-tourism {
   background-image: url(./assets/home/background-home-desktop.jpg);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .homepage {

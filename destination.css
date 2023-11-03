@@ -48,6 +48,12 @@
   text-decoration-thickness: 2px;
 }
 
+.destination-active {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 2px;
+}
+
 .heading {
   font-family: "Bellefair";
   font-size: 10rem;
