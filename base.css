@@ -58,6 +58,7 @@ a {
   color: #e5dbdbf8;
   text-decoration: underline;
   text-underline-offset: 40px;
+  text-decoration-thickness: 2px;
 }
 
 .navbar-serial-no {

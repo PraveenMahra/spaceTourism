@@ -45,6 +45,7 @@
   cursor: pointer;
   text-decoration: underline;
   text-underline-offset: 1rem;
+  text-decoration-thickness: 2px;
 }
 
 .heading {
